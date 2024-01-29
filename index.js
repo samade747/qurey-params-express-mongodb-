@@ -33,4 +33,4 @@ app.use("/products", productRoutes)
 app.listen(process.env.PORT, () => {
     // Log a message indicating the port the server is listening on
     console.log(`Server is working on port number ${process.env.PORT}`)
-})
+}) 
